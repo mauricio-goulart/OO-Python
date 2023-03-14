@@ -20,4 +20,8 @@ class Passaro1:
         self.estado = 'Pousado'
         print(self.estado)
 
+p1 = Passaro1
 
+p1.voar()
+
+print(p1.estado)
