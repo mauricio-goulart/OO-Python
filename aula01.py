@@ -1,3 +1,5 @@
+#Basic
+
 class Passaro:
     def voar():
         print('Voando')
@@ -6,3 +8,16 @@ class Passaro:
 
 
 Passaro.voar()
+
+
+#Aplicando o 'self'
+class Passaro1:
+    estado = 'parado'
+    def voar(self):
+        self.estado = 'voando'
+        print(self.estado)
+    def pousar(self):
+        self.estado = 'Pousado'
+        print(self.estado)
+
+
