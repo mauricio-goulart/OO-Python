@@ -1,0 +1,15 @@
+class Fila():
+
+
+    c_fila = []
+
+    classmethod
+    def entrar(cls, obj):
+        cls.c_fila.append(obj)
+
+
+    def __init__(self):
+        self.fila = []
+
+    def entrarc(self, obj):
+        self.fila.append(obj)
