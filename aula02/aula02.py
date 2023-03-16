@@ -1,7 +1,7 @@
 class Fila():
 
 
-    c_fila = ['fodase']
+    c_fila = []
 
     classmethod
     def entrar(cls, obj):
