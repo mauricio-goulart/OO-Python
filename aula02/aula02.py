@@ -1,7 +1,7 @@
 class Fila():
 
 
-    c_fila = []
+    c_fila = ['fodase']
 
     classmethod
     def entrar(cls, obj):
@@ -13,3 +13,10 @@ class Fila():
 
     def entrarc(self, obj):
         self.fila.append(obj)
+
+
+Fila().entrar('Ola')
+supermercado = Fila()
+supermercado.entrarc('Maria')
+
+print(supermercado.c_fila, supermercado.fila)
